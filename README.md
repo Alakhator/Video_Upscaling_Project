@@ -7,7 +7,7 @@ resolution and reducing noise. Your task entails harnessing the capabilities of 
 suitable and available model to achieve significant improvements in video quality,
 particularly by increasing its resolution and eliminating unwanted noise.
 
-IMPLEMENTATION - Used a pretained model of video2x to generate output which included upscaling upto 180x and noise reduction with threshold 3. Each step is explained in logical manner in ipynb file and is easily reproducible with minor changes in input and output path to drive. The preprocessing requires GPU so did on google colab which provides free session upto 12 hrs which is more than enough to produce output of files with limit of 30 mins per session.
+IMPLEMENTATION - Used a pretained model of video2x (https://github.com/k4yt3x/video2x)  to generate output which included upscaling upto 180x and noise reduction with threshold 3. Each step is explained in logical manner in ipynb file and is easily reproducible with minor changes in input and output path to drive. The preprocessing requires GPU so did on google colab which provides free session upto 12 hrs which is more than enough to produce output of files with limit of 30 mins per session.
 
 INPUT - Three demo files which are provided in the link - https://gdrive.openinapp.co/3qr0x
 
